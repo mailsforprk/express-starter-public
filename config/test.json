@@ -1,0 +1,5 @@
+{
+  "logLevel": "debug",
+  "port": 0,
+  "dbUrl": "mysql://reace:123456@localhost:3306/res"
+}

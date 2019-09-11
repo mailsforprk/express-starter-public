@@ -1,0 +1,11 @@
+{
+  "logLevel": "debug",
+  "port": 3001,
+  "dbUrl": "mysql://root:user@localhost:3306/express",
+  "authConfig": {
+    "tokenSecret": "U@8enqD2hCyCqnQ4g_XP",
+    "tokenExpiresIn": "24h",
+    "passwordSecret": "MLk9UEh.wMFLMrEohg_b"
+  },
+  "stripeApiKey": "sk_test_LzClNaJ7G3BQg3znhOJ3CIhF005IMMlHTf"
+}

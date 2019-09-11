@@ -1,0 +1,6 @@
+{
+  "logLevel": "LOG_LEVEL",
+  "port": "PORT",
+  "dbUrl": "DATABASE_URL",
+  "stripeApiKey": "STRIPE_API_KEY"
+}

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET /customer should return valid customer data with valid accessToken 1`] = `
+Object {
+  "address_1": null,
+  "address_2": null,
+  "city": null,
+  "country": null,
+  "credit_card": null,
+  "customer_id": 1001,
+  "day_phone": null,
+  "email": "user1001@elango.dev",
+  "eve_phone": null,
+  "mob_phone": null,
+  "name": "User 1001",
+  "postal_code": null,
+  "region": null,
+  "shipping_region_id": 1,
+}
+`;
+
+exports[`POST /customers should send USR_04 if email already exist 1`] = `
+Object {
+  "code": "USR_04",
+  "message": "The email already exists.",
+  "status": 400,
+}
+`;
+
+exports[`POST /customers/login should return customer data with bearer auth token 1`] = `
+Object {
+  "address_1": null,
+  "address_2": null,
+  "city": null,
+  "country": null,
+  "credit_card": null,
+  "customer_id": 1001,
+  "day_phone": null,
+  "email": "user1001@elango.dev",
+  "eve_phone": null,
+  "mob_phone": null,
+  "name": "User 1001",
+  "postal_code": null,
+  "region": null,
+  "shipping_region_id": 1,
+}
+`;
