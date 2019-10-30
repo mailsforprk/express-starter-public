@@ -35,7 +35,7 @@
     "morgan": "^1.9.1",
     "mysql2": "^1.6.5",
     "ramda": "^0.26.1",
-    "sequelize": "^5.8.6",
+    "sequelize": "^5.15.1",
     "standard": "^12.0.1",
     "stripe": "^7.0.0",
     "tedious": "^6.1.1",
