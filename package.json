@@ -24,7 +24,7 @@
   "homepage": "https://github.com/ananthhh/turing-backend#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "config": "^3.1.0",
+    "config": "^3.3.8",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "express-bearer-token": "^2.4.0",
